@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#header {
+  background-color: #0881b3;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
